@@ -24,13 +24,13 @@ window.addEventListener('scroll', function () {
 
 const images = [
     { src: 'images/my-shop-images/shop1.png', title: 'Image 1 Description' },
-    { src: 'images/my-shop-images/shop1.png', title: 'Image 2 Description' },
+    { src: 'images/my-shop-images/adm2.webp', title: 'Image 2 Description' },
     { src: 'images/my-shop-images/shop3.png', title: 'Image 1 Description' },
     { src: 'images/my-shop-images/shop4.png', title: 'Image 2 Description' },
     { src: 'images/my-shop-images/shop5.png', title: 'Image 1 Description' },
     { src: 'images/my-shop-images/shop6.png', title: 'Image 2 Description' },
     { src: 'images/my-shop-images/adm1.png', title: 'Image 1 Description' },
-    { src: 'images/my-shop-images/adm2.png', title: 'Image 2 Description' },
+    { src: 'images/my-shop-images/adm2.webp', title: 'Image 2 Description' },
     { src: 'images/my-shop-images/adm3.png', title: 'Image 1 Description' },
     { src: 'images/my-shop-images/adm4.png', title: 'Image 2 Description' },
     { src: 'images/my-shop-images/adm5.png', title: 'Image 1 Description' },
