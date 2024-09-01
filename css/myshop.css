@@ -86,6 +86,11 @@ body {
     font-family: 'Baloo Paaji', cursive;
     color: #6496d3;
 }
+@media (max-width: 991.9px) {
+    .title{
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif !important;
+    }
+}
 
 .gallery img {
     cursor: pointer;
