@@ -66,9 +66,10 @@ body {
 
 .sm-text-content {
     padding: 20px;
-    font-family: 'Baloo Paaji', cursive;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif !important;
     color: #6496d3;
 }
+
 
 .cv {
     background-color: #6496d3;
@@ -176,6 +177,11 @@ body {
     font-family: 'Baloo Paaji', cursive;
     color: #6496d3;
 }
+@media (max-width: 991.9px) {
+    .service-header, .project-header, .project-title {
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif !important;
+    }
+}
 
 .swiper-container {
     width: 100%;
@@ -265,6 +271,12 @@ body {
     position: relative;
     overflow: hidden;
 }
+@media (max-width: 991.9px) {
+    .skills-container {
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif !important;
+    }
+}
+
 
 .skills-container::before {
     content: "";
