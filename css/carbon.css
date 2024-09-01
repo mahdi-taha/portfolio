@@ -102,7 +102,7 @@ body {
 }
 
 @media (max-width: 991.9px) {
-    .title .visit-link {
+    .title, .visit-link {
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif !important;
     }
 }
