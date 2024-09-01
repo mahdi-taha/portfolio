@@ -101,6 +101,11 @@ body {
     font-weight: bold;
 }
 
+@media (max-width: 991.9px) {
+    .title .visit-link {
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif !important;
+    }
+
 footer {
     background-color: #ffffff;
     color: #000;
