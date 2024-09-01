@@ -157,7 +157,9 @@ body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif !important;
 }
 @media (max-width: 991.9px) {
-font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif !important;
+    .about-text, .about-header {
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif !important;
+    }
 }
 
 .service-header {
