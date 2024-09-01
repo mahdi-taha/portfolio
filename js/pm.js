@@ -23,14 +23,14 @@ window.addEventListener('scroll', function () {
 });
 
 const images = [
-    { src: 'images/pm/p1.png', title: 'Image 1 Description' },
-    { src: 'images/pm/p2.png', title: 'Image 2 Description' },
-    { src: 'images/pm/p3.png', title: 'Image 1 Description' },
-    { src: 'images/pm/p4.png', title: 'Image 2 Description' },
-    { src: 'images/pm/p5.png', title: 'Image 1 Description' },
-    { src: 'images/pm/p6.png', title: 'Image 2 Description' },
-    { src: 'images/pm/p7.png', title: 'Image 1 Description' },
-    { src: 'images/pm/p8.png', title: 'Image 2 Description' },
+    { src: 'images/pm/p1.webp', title: 'Image 1 Description' },
+    { src: 'images/pm/p2.webp', title: 'Image 2 Description' },
+    { src: 'images/pm/p3.webp', title: 'Image 1 Description' },
+    { src: 'images/pm/p4.webp', title: 'Image 2 Description' },
+    { src: 'images/pm/p5.webp', title: 'Image 1 Description' },
+    { src: 'images/pm/p6.webp', title: 'Image 2 Description' },
+    { src: 'images/pm/p7.webp', title: 'Image 1 Description' },
+    { src: 'images/pm/p8.webp', title: 'Image 2 Description' },
 ];
 
 let currentIndex = 0;
