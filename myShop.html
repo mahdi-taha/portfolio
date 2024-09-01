@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Shop</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+    <link href="css/myshop.css" rel="stylesheet">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-custom fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="images/logo.png" alt="logo" width="auto" height="50"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html#about-section">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html#services-section">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html#skills-section">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html#projects-section">Projects</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container-fluid">
+        <div class="row no-gutters">
+            <div class="col-md-7 left-panel">
+                <h1 class="title">My Shop </h1>
+                <p class="descr text-secondary">"Experience unparalleled efficiency and control with My Shop. Our
+                    platform offers a robust admin
+                    dashboard that simplifies order management, sales tracking, and refund processing, all while
+                    allowing you to customize the store’s appearance and company information. Enjoy the convenience of
+                    real-time notifications, advanced filtering options, and seamless inventory management, ensuring
+                    that your operations run smoothly and your customers are always satisfied. With My Shop, you gain
+                    the tools to drive your business forward, making informed decisions and enhancing the overall
+                    shopping experience."</p>
+
+                <ul class="descr text-secondary">
+                    <li><i class="fa-solid fa-check" style="color: #4d87d0;"></i> Responsive Design</li>
+                    <li><i class="fa-solid fa-check" style="color: #4d87d0;"></i> Product Categories & Subcategories
+                    </li>
+                    <li><i class="fa-solid fa-check" style="color: #4d87d0;"></i> Comprehensive Product Listings</li>
+                    <li><i class="fa-solid fa-check" style="color: #4d87d0;"></i> Product Variants Management</li>
+                    <li><i class="fa-solid fa-check" style="color: #4d87d0;"></i> Inventory Management & Logs</li>
+                    <li><i class="fa-solid fa-check" style="color: #4d87d0;"></i> Transaction Tracking</li>
+                    <li><i class="fa-solid fa-check" style="color: #4d87d0;"></i> Order Tracking System</li>
+                    <li><i class="fa-solid fa-check" style="color: #4d87d0;"></i> Admin Dashboard (Profits, Revenue,
+                        COGS, etc.)</li>
+                    <li><i class="fa-solid fa-check" style="color: #4d87d0;"></i> Real-Time Notifications</li>
+                    <li><i class="fa-solid fa-check" style="color: #4d87d0;"></i> Discounts & Coupons</li>
+                    <li><i class="fa-solid fa-check" style="color: #4d87d0;"></i> Shopping Cart & Wishlist</li>
+                    <li><i class="fa-solid fa-check" style="color: #4d87d0;"></i> View Control & Customization</li>
+                    <li><i class="fa-solid fa-check" style="color: #4d87d0;"></i> Company Information Setup</li>
+                    <li><i class="fa-solid fa-check" style="color: #4d87d0;"></i> Refund Management</li>
+                    <li><i class="fa-solid fa-check" style="color: #4d87d0;"></i> Idle Product Monitoring</li>
+                    <li><i class="fa-solid fa-check" style="color: #4d87d0;"></i> Invoice Generation</li>
+                    <li><i class="fa-solid fa-check" style="color: #4d87d0;"></i> Advanced Filtering Options</li>
+                </ul>
+                <div class="gallery mt-3 py-3">
+                    <a onclick="openModal('images/my-shop-images/shop1.png', 'Image 1 Description')" class="btn shadow" style="background-color: #6496d3;"><i
+                            class="fa-solid fa-eye fa-xl" style="color: #fff; cursor: pointer;"></i></a>
+                </div>
+            </div>
+            <div class="col-md-5 d-none d-md-block right-panel">
+                <img src="images/project.png"
+                    alt="Background Image" class="background-image" data-aos="fade-left" data-aos-duration="3000">
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="imageModal" tabindex="-1" aria-labelledby="modalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content">
+                <button type="button" class="btn-close d-block d-md-none ms-3" data-bs-dismiss="modal"
+                    aria-label="Close"></button>
+                <div class="modal-body">
+                    <img id="modalImage" src="" alt="Modal Image">
+                    <div class="modal-nav">
+                        <button class="btn btn-light" onclick="prevImage()">&#10094;</button>
+                        <button class="btn btn-light" onclick="nextImage()">&#10095;</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid p-0 shadow" style="border-top: 1px solid #4443435e;">
+        <footer class="text-center text-white" style="background-color: #ffffff;">
+            <div class="container pt-4">
+                <!-- Section: Social media -->
+                <section class="mb-4">
+                    <!-- Social media icons -->
+                <a class="btn btn-link btn-floating btn-lg m-1" href="https://www.facebook.com/mahdi.taha.188/" role="button"  target="_blank">
+                    <i class="fab fa-facebook-f" style="color: #4d87d0;"></i>
+                </a>
+                <a class="btn btn-link btn-floating btn-lg m-1" href="https://www.instagram.com/mahdi.taha.188?igsh=dGx5OXBhc201azdo" role="button"  target="_blank">
+                    <i class="fab fa-instagram" style="color: #4d87d0;"></i>
+                </a>
+                <a class="btn btn-link btn-floating btn-lg m-1" href="https://www.linkedin.com/in/mahdi-taha-008ab02a6/" role="button"  target="_blank">
+                    <i class="fab fa-linkedin" style="color: #4d87d0;"></i>
+                </a>
+                <a class="btn btn-link btn-floating btn-lg m-1" href="https://github.com/mahdi-taha" role="button"  target="_blank">
+                    <i class="fab fa-github" style="color: #4d87d0;"></i>
+                </a>
+                </section>
+            </div>
+            
+            <hr style="width: 100%; color: #000;">
+            <div class="text-center text-dark p-3" style="background-color: rgba(100, 150, 211, 0);">
+                © 2024 Copyright:
+                <a class="text-dark" href="">CodeCrafter</a>
+            </div>
+        </footer>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script src="js/myshop.js"></script>
+</body>
+
+</html>
