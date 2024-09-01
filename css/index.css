@@ -156,6 +156,9 @@ body {
 .about-text {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif !important;
 }
+@media (max-width: 991.9px) {
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif !important;
+}
 
 .service-header {
     font-family: 'Baloo Paaji', cursive;
